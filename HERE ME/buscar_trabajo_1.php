@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>Encuesta para Buscar Trabajadores</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #d9a7c7, #fffcdc); /* colores cambiados */
+      background: linear-gradient(to right, #d9a7c7, #fffcdc);
+      /* colores cambiados */
       margin: 0;
       padding: 0;
       display: flex;
@@ -19,7 +21,7 @@
       background: #fff;
       padding: 30px;
       border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
       width: 350px;
       text-align: center;
     }
@@ -37,7 +39,8 @@
       color: #444;
     }
 
-    input, select {
+    input,
+    select {
       width: 100%;
       padding: 10px;
       border-radius: 8px;
@@ -46,14 +49,17 @@
       transition: 0.3s;
     }
 
-    input:focus, select:focus {
-      border-color: #9b59b6; /* color morado */
+    input:focus,
+    select:focus {
+      border-color: #9b59b6;
+      /* color morado */
       outline: none;
       box-shadow: 0 0 5px rgba(155, 89, 182, 0.6);
     }
 
     button {
-      background: #9b59b6; /* botón morado */
+      background: #9b59b6;
+      /* botón morado */
       color: #fff;
       padding: 12px 20px;
       border: none;
@@ -65,16 +71,18 @@
     }
 
     button:hover {
-      background: #8e44ad; /* tono más oscuro al pasar el mouse */
+      background: #8e44ad;
+      /* tono más oscuro al pasar el mouse */
       transform: scale(1.03);
     }
   </style>
 </head>
+
 <body>
 
   <form action="Index.html" method="post">
     <h2>Encuesta para Empresas que Buscan Trabajadores</h2>
-    
+
     <label>Nombre de la empresa:</label>
     <input type="text" name="empresa" required>
 
@@ -96,5 +104,5 @@
   </form>
 
 </body>
-</html>
 
+</html>
