@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Encuesta para Buscar Trabajadores</title>
+  <title>Encuesta para Buscar Tr</title>
   <style>
     body {
       font-family: Arial, sans-serif;
